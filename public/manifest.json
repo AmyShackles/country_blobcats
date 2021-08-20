@@ -1,6 +1,6 @@
 {
-    "name": "country_blobcats",
-    "short_name": "country_blobcats",
+    "name": "Country Blobcat Generator",
+    "short_name": "Country Blobcats",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
