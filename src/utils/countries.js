@@ -1,4 +1,4 @@
-const countries = [
+const countryList = [
     {
         label: "Andorra",
         value: "AD",
@@ -997,4 +997,12 @@ const countries = [
     },
 ];
 
+const collator = new Intl.Collator(undefined, {
+    numeric: true,
+    sensitivity: "base",
+});
+
+const countries = countryList.sort((a, b) =>
+    collator.compare(a.label, b.label)
+);
 export { countries };
